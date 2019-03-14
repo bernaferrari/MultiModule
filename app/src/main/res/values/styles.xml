@@ -1,0 +1,119 @@
+<resources>
+
+    <style name="ToolbarColoredBackArrow" parent="Theme.MaterialComponents.Light.DarkActionBar">
+        <item name="android:textColorSecondary">@color/colorPrimary</item>
+    </style>
+
+    <style name="TextAppearance.DialogTitle1" parent="TextAppearance.MaterialComponents.Headline6">
+        <item name="android:textColor">@color/text_primary_dark</item>
+    </style>
+
+    <style name="Plaid.InlineActionButton" parent="ClickableImageView">
+        <item name="android:gravity">center_horizontal</item>
+        <item name="android:textSize">14sp</item>
+        <item name="android:textColor">@color/dark_icon</item>
+        <item name="android:textAllCaps">true</item>
+        <!--<item name="android:textAppearance">@style/TextAppearanceCommentAuthor</item>-->
+        <item name="android:drawablePadding">@dimen/spacing_micro</item>
+        <!--<item name="android:foreground">?android:selectableItemBackgroundBorderless</item>-->
+    </style>
+
+    <style name="ThemeOverlay.SdkSearch.Dark.ActionBar" parent="@style/ThemeOverlay.MaterialComponents.Dark.ActionBar">
+        <item name="colorAccent">#fff</item>
+    </style>
+
+    <style name="ClickableImageView">
+        <item name="android:clickable">true</item>
+        <item name="android:background">?android:selectableItemBackground</item>
+    </style>
+
+    <style name="BottomActive" parent="@style/TextAppearance.MaterialComponents.Caption"></style>
+
+    <style name="BottomInactive" parent="@style/TextAppearance.MaterialComponents.Caption"></style>
+
+    <style name="menuViewStyle">
+        <item name="android:alpha">0.10</item>
+        <item name="android:layout_width">56dp</item>
+        <item name="android:layout_height">56dp</item>
+    </style>
+
+    <style name="mainRecyclerItem">
+        <item name="android:layout_marginStart">@dimen/recycler_margin</item>
+        <item name="android:layout_marginEnd">@dimen/recycler_margin</item>
+    </style>
+
+    <style name="MainMenuText">
+        <item name="android:ellipsize">end</item>
+        <item name="android:maxLines">1</item>
+        <item name="android:textAlignment">center</item>
+        <item name="android:textSize">14sp</item>
+        <item name="android:textColor">@color/FontStrong</item>
+        <item name="android:layout_width">0dp</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_marginTop">6dp</item>
+        <item name="android:layout_marginBottom">8dp</item>
+    </style>
+
+    <style name="MainMenuConstraintLayout">
+        <item name="android:background">?selectableItemBackground</item>
+        <item name="android:layout_width">88dp</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:includeFontPadding">false</item>
+        <item name="android:layout_marginEnd">8dp</item>
+        <item name="android:paddingTop">8dp</item>
+    </style>
+
+
+    <style name="Seeker" parent="Theme.MaterialComponents.Light">
+        <!-- colorPrimary is used for the default action bar background -->
+        <item name="colorPrimary">@color/md_white_1000</item>
+
+        <!-- colorPrimaryDark is used for the status bar -->
+        <item name="colorPrimaryDark">@color/md_white_1000</item>
+
+        <!-- colorAccent is used as the default value for colorControlActivated,
+             which is used to tint widgets -->
+        <item name="colorAccent">@color/md_white_1000</item>
+
+        <!-- You can also set colorControlNormal, colorControlActivated
+             colorControlHighlight, and colorSwitchThumbNormal. -->
+    </style>
+
+    <!-- Base application theme. -->
+    <style name="PagerTabStripText" parent="TextAppearance.Design.Tab">
+        <item name="textAllCaps">false</item>
+        <item name="android:textSize">15sp</item>
+    </style>
+
+    <style name="AppTheme" parent="Theme.MaterialComponents.Light.DarkActionBar" />
+
+    <style name="SplashTheme" parent="Theme.MaterialComponents.Light.NoActionBar">
+        <item name="android:windowNoTitle">true</item>
+        <item name="android:windowContentOverlay">@null</item>
+        <item name="colorPrimaryDark">@color/white</item>
+    </style>
+
+    <style name="transparentbar" parent="SplashTheme" />
+
+    <style name="mainTheme" parent="Theme.MaterialComponents.Light.NoActionBar">
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <!--<item name="colorPrimaryDark">@color/colorPrimaryDark</item>-->
+        <item name="colorPrimaryDark">@color/md_black_1000</item>
+        <item name="android:windowBackground">@color/windowBackground</item>
+        <item name="md_background_color">@color/CARD</item>
+        <item name="colorAccent">@color/atlasianblue</item>
+
+        <item name="md_corner_radius">16dp</item>
+        <!--<item name="md_font_title">@font/ibm_sans_semibold</item>-->
+
+    </style>
+
+    <style name="About" parent="Theme.Mal.Light">
+        <item name="colorPrimary">@color/CARD</item>
+        <item name="colorPrimaryDark">@color/md_grey_300</item>
+        <item name="colorAccent">@color/atlasianblue</item>
+        <item name="android:windowBackground">@color/windowBackground</item>
+    </style>
+
+
+</resources>

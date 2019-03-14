@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/mobile_navigation"
+    app:startDestination="@id/bibleFrag">
+
+    <fragment
+        android:id="@+id/bibleFrag"
+        android:name="com.biblialibras.android.bible.main.FragmentBible"
+        android:label="NewFragment"
+        tools:layout="@layout/main_parent_frag" />
+
+    <fragment
+        android:id="@+id/searchFrag"
+        android:name="com.biblialibras.android.bible.search.FragmentSearch"
+        android:label="NewFragment"
+        tools:layout="@layout/main_parent_frag" />
+
+</navigation>

@@ -1,0 +1,77 @@
+<resources>
+    <string name="app_name">Bíblia em Libras</string>
+
+    <string name="gif_error">Erro. Verifique a conexão ou selecione outro.</string>
+
+
+    <string name="action_settings">Settings</string>
+
+    <string name="title_activity_simple_tabs">Bíblia em Libras</string>
+    <string name="btn_simple_tabs">Bíblia em Libras</string>
+
+    <string name="bible">Bíblia</string>
+    <string name="dictionary">Dicionário</string>
+    <string name="about">Sobre</string>
+
+    <string name="versiculos">%1s %2$s</string>
+    <string name="share">Compartilhar</string>
+
+    <string name="atualizacao">Atualização disponível!</string>
+    <string name="dicionario">Dicionário de Sinais</string>
+    <string name="aguarde">Aguarde carregar</string>
+
+    <string name="dialog_share">Compartilhar</string>
+
+    <string name="expanding_group">Expanding group</string>
+    <string name="carousel">Carousel</string>
+    <string name="vertical_columns">Vertical columns</string>
+    <string name="full_bleed_item">A full bleed item</string>
+    <string name="multiple_columns">Multiple columns with even spacing</string>
+    <string name="infinite_loading">Infinite loading</string>
+    <string name="expanding_group_subtitle">Tap on the header to expand or contract the group.</string>
+    <string name="carousel_subtitle">Swipe this section horizontally to scroll its items.</string>
+    <string name="swipe_to_delete">Swipe to delete</string>
+
+    <string name="updating_group">Culto dos Surdos</string>
+    <string name="updating_devocional">Devocionais</string>
+    <string name="see_more">Ver todos</string>
+
+    <string name="verifique">Não foi possível conectar com o YouTube.\n\nNormalmente isso é causado por:\n- Problemas no
+        Wi-Fi\n- Problemas no 3g/4g\n\nSe essa mensagem continuar aparecendo, entre em contato.
+    </string>
+
+    <string name="transition_tag_dot_indexed">transition.dot%1$d</string>
+    <string name="transition_tag_title_indexed">transition.title%1$d</string>
+
+    <string name="copy">Copy</string>
+    <string name="more_options">More options</string>
+    <string name="clear_search_query">Clear search</string>
+    <string name="dismiss">Dismiss</string>
+    <string name="view_source">View source</string>
+
+    <string name="speed_placeholder">%1sx</string>
+
+    <plurals name="video_quantity_main">
+        <item quantity="one">%d vídeo</item>
+        <item quantity="other">%d vídeos</item>
+    </plurals>
+
+    <plurals name="video_quantity">
+        <item quantity="one">%d vídeo</item>
+        <item quantity="other">%d vídeos</item>
+    </plurals>
+
+    <string name="search_gifs_hint_loaded">Pesquisar %1d gifs…</string>
+    <string name="search_gifs_hint">Carregando…</string>
+
+    <string name="useGoogleLocationServices">Atualizar Google Play Services</string>
+    <string name="agree_to_update">Atualizar</string>
+    <string name="useGoogleLocationServicesPrompt"> Foi detectado uma versão antiga do Google Play Services. Caso as listas no app não estejam aparecendo, atualize tocando aqui.</string>
+    <string name="newupdate"><![CDATA[Modificamos tudo, e esperamos que você tenha gostado. Se encontrar algum problema, tiver uma dúvida ou sugestão, entre em contato: <b>Sobre -> Contato</b>]]></string>
+    <string name="video_speed_title">Velocidade do Vídeo</string>
+
+    <string name="shuffle_settings">Por padrão, o app exibe os vídeos em ordem aleatória.\nCaso prefira a ordem cronológica, é só selecionar aqui.\nIsso passará a valer na próxima vez em que o app for iniciado.</string>
+    <string name="todos">Todos</string>
+    <string name="ver_todos">Ver todos</string>
+
+</resources>

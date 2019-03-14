@@ -1,0 +1,82 @@
+import com.biblialibras.android.buildsrc.Libs
+
+apply from: '../dependencies.gradle'
+apply plugin: 'com.android.library'
+apply plugin: 'kotlin-android'
+apply plugin: 'kotlin-kapt'
+apply plugin: 'kotlin-android-extensions'
+
+android {
+    compileSdkVersion versions.compileSdk
+
+    defaultConfig {
+        minSdkVersion versions.minSdk
+        targetSdkVersion versions.compileSdk
+        versionCode versions.publishVersionCode
+        versionName versions.publishVersion
+    }
+
+    dataBinding {
+        enabled = true
+    }
+}
+
+dependencies {
+
+    implementation project(":common")
+    implementation project(":sharedmainscreen")
+    implementation project(":repo")
+
+    // Room
+    implementation Libs.AndroidX.Room.common
+    implementation Libs.AndroidX.Room.rxjava2
+    kapt Libs.AndroidX.Room.compiler
+
+    implementation Libs.AndroidX.coreKtx
+    implementation Libs.AndroidX.constraintlayout
+
+    // Epoxy
+    implementation Libs.Epoxy.epoxy
+    implementation Libs.Epoxy.paging
+    implementation Libs.Epoxy.dataBinding
+    kapt Libs.Epoxy.processor
+
+    // Dagger
+    implementation Libs.Dagger.androidSupport
+    kapt Libs.Dagger.compiler
+    kapt Libs.Dagger.androidProcessor
+
+    compileOnly Libs.AssistedInject.annotationDagger2
+    kapt Libs.AssistedInject.processorDagger2
+
+    // Kotlin
+    implementation 'org.jetbrains.kotlin:kotlin-stdlib:' + versions.kotlin
+    implementation 'org.jetbrains.kotlinx:kotlinx-coroutines-core:' + versions.coroutines
+    implementation 'org.jetbrains.kotlinx:kotlinx-coroutines-android:' + versions.coroutines
+
+    // Google/AndroidX
+    implementation 'androidx.recyclerview:recyclerview:' + versions.androidxRecyclerView
+    implementation "androidx.appcompat:appcompat:" + versions.androidxCore
+    implementation "com.google.android.material:material:" + versions.androidxMaterial
+
+    // MvRx
+    implementation "com.airbnb.android:mvrx:" + versions.mvRx
+
+    // Glide
+    implementation "com.github.bumptech.glide:glide:" + versions.glide
+    implementation "com.github.bumptech.glide:recyclerview-integration:" + versions.glide
+    kapt "com.github.bumptech.glide:compiler:" + versions.glide
+
+    // Dialog
+    implementation "com.afollestad.material-dialogs:core:" + versions.materialDialogs
+
+
+    // Koin
+    api 'org.koin:koin-android:' + versions.koin
+
+    // afollestad
+    api 'com.afollestad:rxkprefs:' + versions.rxkPrefs
+
+    // Debug
+    api 'com.jakewharton.timber:timber:' + versions.timber
+}

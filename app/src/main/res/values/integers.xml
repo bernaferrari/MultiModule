@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <integer name="span_size">2</integer>
+    <integer name="rapid_animation">120</integer>
+    <integer name="fab_expand_duration">360</integer>
+    <integer name="comment_expand_collapse_duration">120</integer>
+    <item name="fade_duration_fast" type="integer">@android:integer/config_shortAnimTime</item>
+    <item name="fade_duration_slow" type="integer">@android:integer/config_longAnimTime</item>
+    <item name="fade_overlay_fade_duration" type="integer">@android:integer/config_mediumAnimTime
+    </item>
+</resources>

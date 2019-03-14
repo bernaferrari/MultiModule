@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<io.plaidapp.ui.widget.BottomSheet xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/bottom_sheet" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout android:id="@+id/bottom_sheet_content"
+        android:layout_width="@dimen/bottom_sheet_width" android:layout_height="wrap_content"
+        android:background="@color/background_light" android:elevation="@dimen/z_fab"
+        android:orientation="vertical">
+
+        <LinearLayout android:id="@+id/title_bar" android:layout_width="match_parent"
+            android:layout_height="wrap_content" android:background="@color/background_light"
+            android:baselineAligned="false" android:minHeight="?android:actionBarSize"
+            android:orientation="horizontal" android:paddingTop="@dimen/spacing_micro"
+            android:paddingBottom="@dimen/spacing_micro"
+            android:stateListAnimator="@animator/active_raise">
+
+            <ImageView android:id="@+id/close" android:layout_width="@dimen/avatar_bounds"
+                android:layout_height="@dimen/avatar_bounds" android:layout_gravity="center"
+                android:layout_marginStart="@dimen/avatar_margin"
+                android:layout_marginEnd="@dimen/avatar_margin"
+                android:background="?android:selectableItemBackgroundBorderless"
+                android:padding="@dimen/avatar_margin" android:src="@drawable/asl_close_down"
+                android:visibility="invisible" />
+
+            <TextView android:id="@+id/title" android:layout_width="0dp"
+                android:layout_height="wrap_content" android:layout_gravity="start|center_vertical"
+                android:layout_weight="1" android:paddingEnd="@dimen/padding_normal"
+                android:text="aaaa" android:textAppearance="@style/TextAppearance.DialogTitle" />
+
+        </LinearLayout>
+
+        <android.support.v7.widget.RecyclerView android:id="@+id/player_list"
+            android:layout_width="match_parent" android:layout_height="wrap_content"
+            android:clipToPadding="false" android:paddingBottom="@dimen/spacing_normal"
+            android:scrollbars="vertical" />
+
+    </LinearLayout>
+
+</io.plaidapp.ui.widget.BottomSheet>

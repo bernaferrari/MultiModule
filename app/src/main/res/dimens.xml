@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <dimen name="recyclermargin">6dp</dimen>
+    <dimen name="percentbig">1</dimen>
+    <dimen name="percentsmall">0</dimen>
+
+    <!-- Text sizes -->
+    <dimen name="text_size_extra_micro">10sp</dimen>
+    <dimen name="text_size_micro">12sp</dimen>
+    <dimen name="text_size_small">14sp</dimen>
+    <dimen name="text_size_medium">16sp</dimen>
+    <dimen name="text_size_large">18sp</dimen>
+
+    <!-- Nofication bar button -->
+    <dimen name="status_bar_button_width_height">48dp</dimen>
+    <dimen name="status_bar_album_art">64dp</dimen>
+    <dimen name="status_bar_button_info_container_padding_left">11dp</dimen>
+    <dimen name="notification_expanded_height">128.0dip</dimen>
+    <dimen name="play_controls_notification">48.0dip</dimen>
+    <dimen name="notification_padding">8.0dip</dimen>
+    <dimen name="fab_margin">16dp</dimen>
+
+    <dimen name="activity_horizontal_margin">16dp</dimen>
+    <dimen name="activity_vertical_margin">16dp</dimen>
+
+    <dimen name="icon_top_margin">24dp</dimen>
+    <dimen name="icon_bottom_margin">24dp</dimen>
+    <dimen name="title_bottom_margin">16dp</dimen>
+    <dimen name="field_width_standard">160dp</dimen>
+    <dimen name="gerenciamento_vertical_margin">14dp</dimen>
+
+    <dimen name="fab_spacing">86dp</dimen> <!-- keyline + fab margin -->
+
+    <dimen name="spacing_xs_large">16dp</dimen>
+
+    <dimen name="keyline_2">76dp</dimen>
+    <dimen name="divider_height">1px</dimen>
+
+    <dimen name="cardview_shadow_size">2dp</dimen>
+
+    <dimen name="escalapercentbig">1</dimen>
+    <dimen name="escalapercentsmall">0</dimen>
+
+</resources>
